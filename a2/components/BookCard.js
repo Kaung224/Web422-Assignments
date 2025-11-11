@@ -24,7 +24,7 @@ export default function BookCard
         src={`https://covers.openlibrary.org/b/id/${data?.covers?.[0]}-M.jpg`}
         alt="Cover Image" />
         <Card.Body>
-          <Card.Title>{data.title}</Card.Title>
+          <Card.Title>{data.title ? data.title : 'N/A'}</Card.Title>
           <Card.Text>{data.first_publish_date ? data.first_publish_date : 'N/A'}</Card.Text>
           <Link href={`/works/${workId}`}>
             <Button variant="primary">View Details</Button>

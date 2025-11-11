@@ -28,7 +28,7 @@ export default function About(props){
       <br />
       <br />
 
-      <BookDetails book={props.book} workId={props.book.key} showFavouritesButton={false} />	
+      <BookDetails book={props.book} workId={props.book.key} showFavouritesBtn={false} />	
     </>
   )
 }

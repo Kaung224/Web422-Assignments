@@ -1,3 +1,14 @@
+/********************************************************************************
+*  WEB422 – Assignment 02
+* 
+*  I declare that this assignment is my own work in accordance with Seneca's
+*  Academic Integrity Policy:
+* 
+*  https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
+* 
+*  Name: Kaung Khant San Student ID: 108445248 Date: 10 November 2025
+*
+********************************************************************************/
 import PageHeader from "@/components/PageHeader";
 import { useForm } from "react-hook-form";
 import { Row, Col, Button, Form } from "react-bootstrap";
